@@ -50,3 +50,44 @@ li {
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
+/* 🟦 ページ全体のスタイル */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* 🟩 ボタンのデザイン */
+button {
+  background: #007aff;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;  /* 角を少し丸く */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* 🎨 ボタンのホバー（マウスをのせた時の効果） */
+button:hover {
+  background: #005ecb;
+}
+
+/* 🟨 買い物リストのスタイル */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  padding: 15px;
+  margin: 10px auto;
+  border-radius: 10px;  /* 角を丸くする */
+  font-size: 18px;
+  width: 90%;
+  max-width: 400px;
+}
