@@ -1,4 +1,3 @@
-alert("100兆円を使い切れるか？");
 let totalAmount = 0; // 合計金額
 const limit = 100000000000000; // 100兆円
 
