@@ -31,10 +31,7 @@ function addItem() {
     document.getElementById("itemPrice").value = "";
     document.getElementById("itemQuantity").value = "";
     
-    const number = 1234567;
-const formatted = number.toLocaleString();  // "1,234,567" が得られる
-console.log(formatted);
-
+    
 
 
 
